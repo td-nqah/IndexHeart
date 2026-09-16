@@ -286,8 +286,8 @@ function render() {
     glowCtx.clearRect(0, 0, WIDTH, HEIGHT);
     textCtx.clearRect(0, 0, WIDTH, HEIGHT);
 
-  const now = performance.now();
-  const deltaTime = (now - lastTime) / 1000;
+    const now = performance.now();
+    const deltaTime = (now - lastTime) / 1000;
     lastTime = now;
     
     frame += SPEED * deltaTime * FPS;
